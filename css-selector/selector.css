@@ -31,3 +31,4 @@ nav,footer{
     color:aliceblue;
     font-size: larger;
 }
+/* using class inside external css is a good practice*/
