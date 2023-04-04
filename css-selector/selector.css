@@ -1,0 +1,33 @@
+p {/* CSS -element selector*/
+    /*Element Selector - Apply style to all the p tag in the html */
+    color: aqua;
+    background-color: black;
+}
+
+h2 {
+    color: brown;
+}
+/*CSS - ID selector*/
+/*Id selector - Only apply below style to an element which has id = para -2 ,"id is always unique"*/
+#para-3{
+    color:red;
+}
+#para-5{
+    color:darkred;
+}
+/* CSS-class selector 
+/* class selector - only apply below style to one or more elements which has applied below class ,"class can be used multiple times"*/
+.text-purple{
+    color:purple;
+    font-size: large;
+}
+.bg-orange{
+background-color:goldenrod;
+}
+/*CSS -grouping selector  when you have to apply same styling to multiple element than apply this selector*/
+/* have to apply same styling to nav and footer element */
+nav,footer{
+    background-color:olivedrab;
+    color:aliceblue;
+    font-size: larger;
+}
