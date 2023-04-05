@@ -1,0 +1,18 @@
+
+#productOne{
+    color:brown;
+}
+#productTwo{
+     color:rgb(163, 112, 76); 
+     /* red green blue ranges between 0-255 */
+}
+#product3{
+    color:#66ff99;
+}
+.text-style{
+    font-size: large;
+    font-family:'Alkatra', cursive;
+    font-weight: bolder;
+    font-style: oblique;
+    background-color:blueviolet;
+}
