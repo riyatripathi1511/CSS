@@ -1,0 +1,32 @@
+.product{
+    height:300px;
+    width:250px;
+    background-color: aquamarine;
+    border-width: 2px;
+    border:2px solid brown;
+    /* border-style: groove;
+    border-color:brown;
+    border-radius: 20px;  */
+}
+#productThree{
+    height:300px;
+    width:250px;
+    background-color: aquamarine;
+    /* border-width: 2px; */
+    border-bottom:2px solid brown;
+    /* border-style: groove;
+    border-color:brown;*/
+    /* border-radius: 20px;  */
+    border-right: 4px solid firebrick; 
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#productFour{
+    color:blueviolet;
+    height:1200px;
+    width:1200px;
+    border:2px solid brown;
+    background-image:url('https://images.unsplash.com/photo-1680527639693-6bc8f2ef2222?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80') ;
+    background-repeat: no-repeat;
+    background-position:top left;
+}
