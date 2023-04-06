@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 250px;
+    border:1px solid orange;
+    background-color: bisque;
+    padding:15px 20px;
+    margin:30px 15px;
+    border-radius:4px;padding:15px 20px;
+    width:550px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* padding-top: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom:20px; */
+
+    /* padding:15px 20px;  /*y-axis and x-axis*/
+    /* margin:30px 15px; /*y-axis and x-axis*/ 
+     /* margin:2px; 
+     margin-left: 4px;
+     margin-top:6px; */ 
+}
