@@ -1,0 +1,33 @@
+.container{
+    width:750;
+    margin: 10px auto;
+    padding:20px;
+    border-radius: 10px;
+    border:3px solid teal;
+    background:wheat;
+}
+a{
+    text-decoration: none;
+}
+a:hover{                         /*--this is pseudo css--*/
+ background-color: thistle;
+}
+.btn:hover{
+    background-color: violet;
+}
+a:visited{
+    background-color: bisque;
+}
+a:active{
+background-color: lightseagreen;
+}
+.btn{
+    background-color: teal;
+    padding:16px;
+    border:none;
+    cursor:pointer;
+    font-size: medium;
+    font-weight: bolder;
+    color:white;
+    border-radius: 10px;
+}
