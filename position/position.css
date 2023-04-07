@@ -1,0 +1,31 @@
+.item{
+    border:3px solid seagreen;
+    width:140px;
+    height:140px;
+    display:inline-block;
+}
+.parent{
+     border:2px solid red;
+     background-color:bisque ;
+     height:2000px; /* For scroll bar in webpage we require large height*/
+
+}
+/* css position:static(default),absolute,relative,fixed,sticky */
+/* DOM is a tree like structure */
+#item3{
+    /* position:relative = will allow us to move that element from its normal position; */
+    /* position:absolute = will allow  us to move that element from its normal immediate parent */
+    /* position:sticky; */
+    /* position:static = will follow normal DOM flow; */
+   /* position:fixed = will make element fixed at certain top/bottom/left/right from browser */
+   /* position: sticky;
+   top:50px;
+   left:50px; */
+
+    /* position:fixed;
+    bottom:2px;
+    right:2px; */
+
+    position:sticky;
+    top:5px;
+}
