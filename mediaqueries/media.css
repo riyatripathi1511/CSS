@@ -1,0 +1,43 @@
+.item{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size:65px;
+    display: none;
+}
+
+/* 0px to 300px width apply below rules */
+@media (max-width:300px){
+    #item-1{
+display: block;
+    }
+    #item-2{
+        display: block;
+        background-color: beige ;
+    }
+}
+/* 300px to 500px width apply below rules */
+@media (min-width:300px) and (max-width:500px){
+ 
+    #item-2{
+        display: block;
+        background-color: blueviolet;
+    }
+    
+}
+/* 500px to 800px width apply below rules */
+@media (min-width:500px) and (max-width:800px){
+   
+    #item-3{
+        display: block;
+        background-color: rgb(102, 65, 19);
+    }
+}
+/* 800px and  width apply below rules */
+@media (min-width:800px){
+   
+    #item-4{
+        display: block;
+        background-color: rgb(182, 9, 70);
+    }
+}

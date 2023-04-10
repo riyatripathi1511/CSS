@@ -1,0 +1,67 @@
+/* [1] Flexbox is a one-dimensional layout method for laying
+out element in rows or columns
+[2] CSS Flexbox is a better way to align items into
+a container
+[3]Flexbox = flexible + box
+*/
+.flex-container{
+    
+    width: 100%;
+    height: 520px;
+    border: 3px solid darkblue;
+     /* Initialized a flex container/box */
+     display:flex;
+     /* flex-direction: row; */
+    /* flex-wrap: wrap;  flex-wrap is by default no wrap */
+    /* flex-properties can be applied on flex/container */
+    /* by default flex- direction is row it also overrides the values */
+
+    /* flex-direction: row; All flex element should get stacked in one row */
+    /* flex-direction: column; => All flex item should get stacked in one column */
+    /* flex-direction: row-reverse;
+    flex-direction:column-reverse; */
+    /* flex-direction:wrap-reverse; */
+    /* shorthand version : direction wrap */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify-content: center ;aligns flex items centrally on x-axis(main-axis) */
+    /* justify-content: space-around; /*equal space around each flex items*/
+    /* justify-content: space-between; equal space between flex items with no starting and ending space */
+    /* justify-content: space-evenly; equal space between and also start  and end */
+    
+    /* align-items: center;aligns flex items vertically center */
+    /* align-items: flex-end;aligns flex items */
+    /*align-items:flex-start;/*default*/
+    /* align-items:stretch; allows equal space between flex-items */
+}   
+.flex-item{
+    border: 2px solid #339941;
+    background-color: aqua;
+    width:120px;
+    height:60px;
+    margin:10px;
+    padding:5px;
+}
+#flex-item-1{
+/* order:42; */
+/* Flex properties to be applied on flex item */
+/* higher the order later it appears in the list of flex items */
+/* flex-grow: 3; occupies space bigger than other flex items when it gets chance to grow  */
+/* flex-shrink:3; starts shrinking than other flex items when it gets chance to shrink */
+}
+#flex-item-2{
+/* order:40; */
+/* In flex-direction row flex-basis controls the width of a flex item */
+/* In flex-direction column flex-basis controls the height of a flex item */
+flex-basis: 150px;
+align-self: flex-end;   
+}
+#flex-item-3{
+/* order:41; */
+flex-basis: 300px;
+/* shorthand version : grow shrink basis */
+/* flex: 3 3 300px; */
+align-self: flex-start; /*default*/
+align-self: flex-end;
+align-self: center;
+}

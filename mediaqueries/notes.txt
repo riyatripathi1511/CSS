@@ -1,0 +1,1 @@
+1.Mediaqueries helps to make our website responsive(adjust any device)
