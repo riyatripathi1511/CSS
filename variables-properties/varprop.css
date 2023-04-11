@@ -9,8 +9,8 @@
     display: flex;
     background-color:var( --primary-color);
     max-width: var(--max-w);
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*horizontally center*/
+    align-items: center;/*vertically center*/   
     margin: auto;
 }
 .item{

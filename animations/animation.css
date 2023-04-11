@@ -1,0 +1,53 @@
+.container{
+  background-color:  teal;  
+}
+.item{
+ width: 220px;
+ height: 220px;
+background-color:tomato;
+text-align: center;/*HORIZONTAL CENTER*/
+line-height: 220px;
+color: white;
+position: relative;
+animation-name: item-animation;
+animation-name:item-animation-2;
+animation-duration: 6s;
+animation-iteration-count: 1;
+/* animation-fill-mode:forwards;stop at the last count at the to positon */
+animation-fill-mode: alternate;/*stop at the last count at the from position */
+animation-timing-function: ease-in-out;
+/* animation-delay: 2s;start after initial delay of 2s */
+animation-direction: alternate-reverse;
+}
+
+@keyframes item-animation-2 {
+    0%{
+      left: 800px;
+      top: 0px;
+    }
+    25%{
+      left: 800px;
+      top: 200px;
+    }
+    50%{
+      left: 400px;
+      top: 200px;
+    }
+    75%{
+      left: 0px;
+      top: 200px;
+    }
+    100%{
+      left: 0px;
+      top: 0px;
+    }
+}
+
+@keyframes item-animation {
+  from{
+     width: 200px;
+  }
+  to{
+    width: 600px;
+  }
+}
