@@ -1,0 +1,50 @@
+body{
+    background-color: rosybrown;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.header::before{ /*place this pseudo element before the menu*/
+    content: "";/*place empty content and put image as background */
+    background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+    position: absolute; /*align according  to the document from top and left 0 0 */
+    top:0px;
+    left: 0px;
+    opacity:0.5;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /*push the image to the background,z-index will work bcz position is set here*/
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 200px;
+    justify-content: center;
+    /* border:2px solid gold; */
+    height: 300px;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+    font-size: 3rem;
+}
+/* .banner::before{
+    content: "inserting content before banner";
+} */
+
+/* .banner::after{
+    content:"inserting content after banner";
+} */
+.navigation-items{
+    display: flex;
+    font-size: 18px;
+}
+.navigation-items li{
+  list-style: none;
+  padding: 30px 20px;
+
+}
