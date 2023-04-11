@@ -1,0 +1,24 @@
+.box{
+    width: 250px;
+    height:250px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    transition-property: background-color;/*the property you want to apply for transition*/
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay:2s ;
+    /*shorthand property to apply transition property*/
+    /* transition: background-color 3s ease-in-out 2s  */
+    transition: all 1s ease-in-out 1s;
+}
+/* transition only works for continuous value property  like color,opacity ht wt */
+.box:hover{
+    background-color: goldenrod;
+    width:500px;
+    height: 500px;
+    font-size: 50px;
+    border-radius: 50%;
+}

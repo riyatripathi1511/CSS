@@ -18,6 +18,7 @@ animation-fill-mode: alternate;/*stop at the last count at the from position */
 animation-timing-function: ease-in-out;
 /* animation-delay: 2s;start after initial delay of 2s */
 animation-direction: alternate-reverse;
+/* animation: name duration iteration timing-function delay  iteration-count direction-fill-mode; */
 }
 
 @keyframes item-animation-2 {
