@@ -25,5 +25,5 @@
 }
 .card h2{ /* offset y-axis x-axis blur radius spread radius color*/
     text-shadow: 5px 5px rgba(70, 170, 170);
-    text-shadow: -5px -5px rgba(70, 170, 170);
+    text-shadow: -5px - 5px rgba(70, 170, 170);
 }

@@ -1,0 +1,27 @@
+:root{ /*declare the global variables here*/
+    --item-color: rgb(29, 31, 31);
+    --primary-color: teal;
+    --secondary-color: orange;
+    --max-w:400px;
+}
+
+.container{
+    display: flex;
+    background-color:var( --primary-color);
+    max-width: var(--max-w);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.item{
+    --item-color: rgb(29, 31, 31);
+    width:220px;
+    height:220px ;
+    background-color:var(--item-color);
+    padding:20px;
+    margin:20px;
+    border: 2px solid yellowgreen;
+    color:blanchedalmond;
+    box-shadow: 5px 5px var(--secondary-color);
+   
+}
