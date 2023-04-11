@@ -1,0 +1,52 @@
+.container{
+    width:250px;
+    margin:auto;
+}
+input{
+    display:block;
+    padding: 3px;
+    margin: 2px;
+}
+input[type ='text']{
+    border:4px solid green;
+    padding:10px;
+}
+a[target]{
+    padding:10px;
+    font-size:20px;
+    color:black;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 2px;
+}
+a[target='_self']{
+    padding:4px;
+    font-size:20px;
+    color:blue;
+}
+li:nth-child(4){
+    color: brown;
+    font-size:16px;;
+}
+li:nth-child(2){
+    color:coral;
+    font-size: 50px;
+}
+/* target even elements */
+li:nth-child(2n+0){
+   background-color: bisque;
+    
+}
+/* target odd elements */
+li:nth-child(2n+1){
+    background-color: yellow;
+}
+li:nth-child(even){
+    font-style: oblique;
+}
+li:nth-child(odd){
+    color: brown;
+     font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: grey;
+}

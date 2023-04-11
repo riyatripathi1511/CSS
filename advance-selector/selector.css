@@ -4,7 +4,7 @@ h2{
     font-weight: bold;
     text-align: center;
 }
-/* Below is targetting all those p tag which are any level child of DIV */
+/* Below is targetting all those p tag which are  level child of li which are any level child of DIV */
 /* div li p{
     background-color: aqua;
     color: black;
